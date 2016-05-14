@@ -1,3 +1,9 @@
+<?php
+function __autoload($class_name)
+{
+	include $class_name. '.php';
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -110,8 +116,13 @@
 
     </div>
   </div>
-
-
+  
+    <div class="container">
+        <div class='inquiries-wrapper'>
+            <?php include dirname(__FILE__) . DIRECTORY_SEPARATOR . "templates\inquiries\createForm.php"; ?> 
+        </div>
+    </div>
+    
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -128,7 +139,7 @@
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+          <p class="grey-text text-lighten-4">dsfafasfasfasf f adfasf adf adf adfsa fdf df dfadfdafadf</p>
 
 
         </div>
@@ -167,4 +178,7 @@
 
   </body>
 </html>
+	
+
+
 
