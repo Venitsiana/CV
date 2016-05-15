@@ -98,11 +98,11 @@ function __autoload($class_name)
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light"></h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="img/background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="img/code.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
