@@ -9,7 +9,7 @@ function __autoload($class_name)
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Parallax Template - Materialize</title>
+  <title>CV</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -40,18 +40,20 @@ function __autoload($class_name)
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+<!--        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+          <h5 class="header col s12 light"></h5>
+        </div>-->
+        <div class="row center" style="padding-top: 250px;">
+          <a href="#inquiry-title" id="download-button" class="btn-large waves-effect waves-light" 
+             style="background-color:#fff; color:#73AD21; padding-left: 80px; padding-right:80px;">
+              Write me
+          </a>
         </div>
         <br><br>
-
       </div>
     </div>
-    <div class="parallax"><img src="img/background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="img/football.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
 
@@ -175,6 +177,7 @@ function __autoload($class_name)
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/inquiries.js"></script>
 
   </body>
 </html>
