@@ -12,10 +12,14 @@ if($_POST){
     $stmt1 = $connection->prepare($statement1);
     $stmt1->bindValue(":FIRSTNAME", strip_tags($post['firstname']), PDO::PARAM_STR);
     $stmt1->bindValue(":LASTNAME", strip_tags($post['lastname']), PDO::PARAM_STR);
-    $stmt1->execute();
+    $isInsert=$stmt1->execute();
     
     $name = $post['firstname'] . ' ' . $post['lastname'];
-    
+    // correct this
+    if($isInsert){
+        include "C:" . DIRECTORY_SEPARATOR . "xampp\htdocs\CV" . DIRECTORY_SEPARATOR . "src". DIRECTORY_SEPARATOR ."frontend\sendLocalEmail.php";
+        sendLocalEmail($name);
+    }
     echo $name;
 }
         
