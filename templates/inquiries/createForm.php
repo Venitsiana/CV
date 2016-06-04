@@ -1,9 +1,9 @@
 <div class="row">
-    <h4 id="inquiry-title" class="center">We are here</h4>
+    <h4 id="inquiry-title" class="center">I am here</h4>
     <form id="inquiry-form" class="col s12" method="POST">
       <div class="row">
         <div class="input-field col s6">
-            <input placeholder="Placeholder" id="first_name" type="text" class="validate" name="firstname">
+            <input id="first_name" type="text" class="validate" name="firstname">
           <label for="first_name">Firstname</label>
         </div>
         <div class="input-field col s6">

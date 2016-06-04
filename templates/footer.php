@@ -40,6 +40,7 @@
 <script src="js/materialize.js"></script>
 <script src="js/init.js"></script>
 <script src="js/inquiries.js"></script>
+<script src="js/login.js"></script>
 
 </body>
 </html>

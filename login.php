@@ -3,7 +3,7 @@
 <div class="row">
     <div class="container">
         <h4 id="inquiry-title" class="center">Administration</h4>
-        <form id="inquiry-form" class="col s12" method="POST">
+        <form id="login-form" class="col s12" method="POST">
             <div class="row">
                 <div class="input-field col s12">
                     <input id="username" type="text" class="validate" name="username">
@@ -12,7 +12,7 @@
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="password" type="email" class="validate" name="email">
+                    <input id="password" type="password" class="validate" name="password">
                     <label for="password">Password</label>
                 </div>
             </div>
