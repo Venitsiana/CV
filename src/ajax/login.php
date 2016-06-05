@@ -16,6 +16,9 @@ if($_POST){
             $stmUpdate = 'UPDATE users SET is_log=1 WHERE id='.$user['id'];
             $connection->prepare($stmUpdate)->execute();
             $hasUser=true;
+            session_start();
+            $_SESSION['login_user']= $user['username'];
+            $_SESSION['pass']= $user['pass'];
             break;
         }
     }

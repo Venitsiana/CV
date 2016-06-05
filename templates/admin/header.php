@@ -20,7 +20,10 @@
     <div class="nav-wrapper container">
         <a id="logo-container" href="#" class="brand-logo">Logo</a>
         <ul class="right hide-on-med-and-down">
-            <li><a href="#">Navbar Link</a></li>
+            <li><a href="/CV/templates/admin/inquiries.php">inquiries</a></li>
+            <li><a href="#">projects</a></li>
+            <li><a href="#">blogs</a></li>
+            <li><a href="#">contact</a></li>
         </ul>
 
         <ul id="nav-mobile" class="side-nav">

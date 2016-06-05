@@ -1,5 +1,11 @@
-<?php include __DIR__ . '\header.php'; ?>
+<?php
+session_start();
+if(!$_SESSION){
+    header("Location: http://localhost/CV/login.php");
+}
+include __DIR__ . '\header.php'; ?>
 <?php include 'C:\xampp\htdocs\CV\src\backend\inquiries.php';
+//var_dump($_SESSION);die();
 
 $inquiries = new inquiries();
 $inquiriesArray = $inquiries->getInquiries();
