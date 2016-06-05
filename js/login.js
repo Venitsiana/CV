@@ -11,7 +11,10 @@
             function() {
             })
             .done(function(data) {
-                $('.modal-trigger').leanModal();
+                if(data.indexOf('http') >= 0){
+                    window.location.replace(data);
+                }
+                //$('.modal-trigger').leanModal();
             })
             .fail(function() {
                     alert( "error" );
