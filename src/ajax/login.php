@@ -21,7 +21,7 @@ if($_POST){
     }
 
     if($hasUser){
-        echo 'http://localhost/CV/index.php';
+        echo 'http://localhost/CV/templates/admin/inquiries.php';
     }
     else{
         die('nqma takuv');
