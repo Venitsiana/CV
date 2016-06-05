@@ -3,7 +3,7 @@ CREATE TABLE users
     id INT NOT NULL AUTO_INCREMENT,
     username varchar(255),
     pass varchar(255),
-    is_log tinyint(1)
+    is_log tinyint(1),
 
     PRIMARY KEY(id)
 );
